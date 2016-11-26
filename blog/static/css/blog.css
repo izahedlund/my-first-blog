@@ -1,46 +1,74 @@
-.page-header {
-    background-color: red;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+div.top-menu{
+    display: inline-block;
+    position:relative;
+    overflow:auto;
 }
-
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
-    text-decoration: none;
-}
-
-.content {
-    margin-left: 40px;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
-}
-
-.date {
-    color: #828282;
-}
-
-.save {
-    float: right;
-}
-
-.post-form textarea, .post-form input {
+#core{
+    background-color: #d8d5d5;
+    height: 100%
     width: 100%;
 }
+#canvas{
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
+    background-color: white;
+
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#header_bild{
+    height: 90%;
+    width: 100%;
+
+    
+}
+#button{
+    height: 10%;
+    width: 100%;
+}
+.glyphicon-plus{
+    font-size: 40px;
+    padding-top: 2%;
+    padding-left: 95%;
+    color: orange;
+}
+.page-header{
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
 }
 
-.post {
-    margin-bottom: 70px;
+#menu{
+    height: 100%;
+    width: 20%;
+    padding: 4%;
+}
+#profile_pic{
+    text-align: center;
+}
+.content_canvas{
+    height: 80%;
+    width: 100%;
+    margin-left:  5%;
+}
+.row{
+    height: 100%;
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 3%;
+
+}
+a {
+    color: black;
+}
+a:hover{
+        color: orange;
+}
+.post{
+    margin-top: 10%;
+    font font-family: Arial;
 }
 
-.post h1 a, .post h1 a:visited {
-    color: #000000;
-}
+
